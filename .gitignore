@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+*.local
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+playwright-report/
+test-results/
+image-search/
+artifacts/
