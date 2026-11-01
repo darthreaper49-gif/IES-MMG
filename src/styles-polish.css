@@ -1,0 +1,1090 @@
+/* Final optical adjustments: readable type, neutral content, and restrained green accents. */
+.topbar .mobile-menu-button {
+  display: none;
+}
+.page-heading p {
+  color: #616c65;
+}
+.stat-top {
+  color: #616d64;
+}
+.stat-footer {
+  color: #616962;
+}
+.stat-footer > span:first-child {
+  color: #526e5d;
+}
+.camera-wall-subhead {
+  color: #616b64;
+}
+.activity-content > strong {
+  color: #43584a;
+}
+.activity-content > span {
+  color: #626d66;
+}
+.activity-content > small {
+  color: #616962;
+}
+.activity-alert .activity-content > strong {
+  color: #6e6045;
+}
+.activity-insight strong {
+  color: #5d6d52;
+}
+.activity-insight p > span {
+  color: #616e59;
+}
+.panel-heading h2,
+.panel > h2 {
+  color: #35483b;
+}
+.overview-meta > span {
+  color: #616c65;
+}
+.camera-card-footer {
+  color: #5f6d63;
+}
+.camera-card-footer > span:last-child {
+  color: #616d64;
+}
+.camera-wall-footer {
+  color: #616c63;
+}
+.recent-recording-text > strong {
+  color: #53695b;
+}
+.recent-recording-text > span {
+  color: #5f6c62;
+}
+.recent-recording-text small {
+  color: #616b64;
+}
+.intelligence-card-top > span:first-child {
+  color: #587058;
+}
+.intelligence-metrics strong {
+  color: #486747;
+}
+.intelligence-metrics > div > span {
+  color: #5e6c58;
+}
+.intelligence-legend {
+  color: #5e6c58;
+}
+.intelligence-card > button {
+  color: #5b704f;
+}
+.health-card strong {
+  color: #5b704e;
+}
+.health-card p {
+  color: #606d56;
+}
+.health-card > div > span {
+  color: #5e6e4f;
+}
+/* Consistent ink colors across the supporting workspace pages. */
+.event-summary strong,
+.rules-intro h2,
+.rule-card h3,
+.settings-section-heading h2,
+.recording-detail h2,
+.analytics-stat > strong,
+.detection-chart-panel .panel-heading h2,
+.breakdown-panel h2,
+.donut-chart strong,
+.camera-activity-panel .panel-heading h2 {
+  color: #405844;
+}
+.table-event-name strong,
+.table-primary,
+.data-table td,
+.location-cell,
+.rule-card-top p,
+.settings-form .field-label,
+.settings-form .field-label > input,
+.settings-form .select-wrap select,
+.setting-toggle-row strong,
+.recording-detail dd,
+.recording-card-info strong,
+.breakdown-legend strong,
+.event-detail-title h3,
+.event-detail-meta dd,
+.field-label,
+.field-label > input,
+.field-label > .select-wrap select {
+  color: #596d5e;
+}
+.data-table th,
+.table-event-name small,
+.data-table td > small,
+.table-footer,
+.table-source,
+.event-summary small,
+.event-summary > p > span,
+.info-banner p,
+.rule-details,
+.rule-card-footer > .text-button,
+.camera-chips > span,
+.settings-section-heading p,
+.settings-tabs > button,
+.settings-form-footer > span,
+.setting-toggle-row p,
+.recording-detail dt,
+.recording-card-info > span,
+.analytics-stat > span,
+.analytics-stat > small > span,
+.detection-chart-panel .panel-heading p,
+.chart-legend,
+.chart-hover-value,
+.chart-y-axis,
+.chart-bar-column > small,
+.breakdown-legend > div,
+.breakdown-legend small,
+.donut-chart span,
+.event-description,
+.event-detail-meta dt {
+  color: #5e6a61;
+}
+.rules-intro p,
+.info-banner strong,
+.event-summary > p,
+.page-footnote,
+.inline-note,
+.connection-preview p,
+.range-extents,
+.field-label > small,
+.field-hint,
+.security-checklist > div,
+.recording-detail-note p,
+.playback-notice,
+.analytics-period,
+.chart-insight,
+.chart-insight > span > span {
+  color: #5d6b58;
+}
+.connection-preview strong,
+.help-welcome h3,
+.help-links strong,
+.range-label > span:first-child,
+.recording-detail-note strong {
+  color: #556f4c;
+}
+.settings-tabs > button.active {
+  color: #497048;
+  background: #e8f1e3;
+}
+.settings-tabs > button:hover {
+  color: #4f734a;
+}
+.rules-intro > .badge {
+  color: #56714b;
+}
+.rule-details strong,
+.recording-detail > .button,
+.playback-time,
+.breakdown-legend > div > span:nth-child(2),
+.activity-share {
+  color: #566d4d;
+}
+.analytics-stat > small {
+  color: #4f7042;
+}
+.confidence-value {
+  color: #51704c;
+}
+.search-results > button > span:nth-child(2),
+.search-results small,
+.search-footer,
+.global-search-input input,
+.help-links small,
+.help-welcome p {
+  color: #5d6c55;
+}
+.search-results h3 {
+  color: #616d5c;
+}
+.notification-item strong {
+  color: #51664f;
+}
+.notification-item small,
+.popover-subtitle {
+  color: #616e5d;
+}
+.event-detail-title > div > span {
+  color: #616b5b;
+}
+.modal-header p {
+  color: #616b5c;
+}
+.modal-footer > span {
+  color: #616b5b;
+}
+.camera-checkbox-grid > label > span {
+  color: #5b7052;
+}
+.camera-checkbox-grid small {
+  color: #606d58;
+}
+/* A slightly tighter overview keeps all four points of view in the first screen. */
+@media (min-width: 941px) {
+  .topbar {
+    height: 66px;
+  }
+  .main-content {
+    padding-top: 24px;
+  }
+  .page-heading {
+    margin-bottom: 20px;
+  }
+  .page-overview .page-heading {
+    margin-bottom: 17px;
+  }
+  .overview-meta {
+    margin-bottom: 15px;
+  }
+  .stats-grid {
+    margin-bottom: 20px;
+  }
+  .stat-card {
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .stat-value {
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+  .camera-wall-heading {
+    padding-top: 16px;
+    padding-bottom: 10px;
+  }
+  .camera-wall-subhead {
+    padding-bottom: 12px;
+  }
+  .camera-picture {
+    aspect-ratio: 1.96;
+  }
+  .camera-wall-footer {
+    min-height: 36px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .activity-panel > .panel-heading {
+    padding-top: 16px;
+    padding-bottom: 14px;
+  }
+  .activity-item {
+    padding-top: 13px;
+    padding-bottom: 12px;
+  }
+  .activity-insight {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .camera-wall-full .camera-picture {
+    aspect-ratio: 1.9;
+  }
+  .focus-grid .camera-picture,
+  .camera-wall-full .focus-grid .camera-picture {
+    aspect-ratio: 1.95;
+  }
+}
+@media (min-width: 1271px) {
+  .nav-item {
+    font-size: 12.5px;
+  }
+  .nav-label {
+    font-size: 9px;
+  }
+  .workspace-switch strong {
+    font-size: 12px;
+  }
+  .workspace-switch small {
+    font-size: 10px;
+  }
+  .sidebar-help {
+    font-size: 10.5px;
+  }
+  .sidebar-profile strong {
+    font-size: 12px;
+  }
+  .sidebar-profile small {
+    font-size: 10px;
+  }
+  .breadcrumb {
+    font-size: 12px;
+  }
+  .global-search-button {
+    font-size: 11.5px;
+  }
+  .system-status {
+    font-size: 10.5px;
+  }
+  .page-heading h1 {
+    font-size: 29px;
+  }
+  .page-heading p {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 11.5px;
+  }
+  .site-picker {
+    font-size: 11px;
+  }
+  .overview-meta > span {
+    font-size: 10.5px;
+  }
+  .stat-top {
+    font-size: 11.5px;
+  }
+  .stat-value {
+    font-size: 32px;
+  }
+  .stat-footer,
+  .stat-footer > span:first-child {
+    font-size: 9px;
+  }
+  .stat-footer {
+    gap: 6px;
+  }
+  .panel-heading h2 {
+    font-size: 14px;
+  }
+  .panel-title .badge {
+    font-size: 9px;
+  }
+  .camera-wall-subhead {
+    font-size: 10px;
+  }
+  .overlay-control {
+    font-size: 10px;
+  }
+  .camera-bottomline strong {
+    font-size: 12px;
+  }
+  .camera-bottomline small {
+    font-size: 9px;
+  }
+  .camera-id {
+    font-size: 9px;
+  }
+  .live-pill {
+    font-size: 7px;
+  }
+  .feed-time {
+    font-size: 9px;
+  }
+  .feed-time > small {
+    font-size: 7px;
+  }
+  .camera-card-footer {
+    font-size: 9px;
+    height: 31px;
+  }
+  .camera-card-footer > span:last-child {
+    font-size: 8px;
+  }
+  .ai-feed-tag {
+    font-size: 7px;
+    bottom: 58px;
+  }
+  .detection-box > span {
+    font-size: 7px;
+    top: -17px;
+  }
+  .camera-wall-footer,
+  .pagination > span {
+    font-size: 9px;
+  }
+  .camera-wall-footer > span:last-child {
+    font-size: 8px;
+  }
+  .view-all-button {
+    font-size: 10px;
+  }
+  .activity-tabs > button {
+    font-size: 10.5px;
+  }
+  .activity-tabs > button > span {
+    font-size: 8px;
+  }
+  .activity-content > strong {
+    font-size: 11px;
+  }
+  .activity-content > span {
+    font-size: 10px;
+  }
+  .activity-content > small {
+    font-size: 8.5px;
+  }
+  .activity-content .badge {
+    font-size: 7px;
+  }
+  .activity-live {
+    font-size: 9px;
+  }
+  .activity-view-all {
+    font-size: 10px;
+  }
+  .activity-insight strong {
+    font-size: 9px;
+  }
+  .activity-insight p > span {
+    font-size: 8.5px;
+  }
+  .recent-recording-text > strong {
+    font-size: 11px;
+  }
+  .recent-recording-text > span {
+    font-size: 9px;
+  }
+  .recent-recording-text small {
+    font-size: 8px;
+  }
+  .recent-recordings .text-button {
+    font-size: 10px;
+  }
+  .subtle-count {
+    font-size: 9px;
+  }
+  .recording-mini-tag {
+    font-size: 6.5px;
+  }
+  .recording-duration {
+    font-size: 8px;
+  }
+  .intelligence-card-top > span:first-child {
+    font-size: 11px;
+  }
+  .intelligence-card-top .badge {
+    font-size: 7px;
+  }
+  .intelligence-metrics strong {
+    font-size: 27px;
+  }
+  .intelligence-metrics > div > span {
+    font-size: 9px;
+  }
+  .intelligence-legend {
+    font-size: 7px;
+  }
+  .intelligence-card > button {
+    font-size: 9px;
+  }
+  .health-card strong {
+    font-size: 9px;
+  }
+  .health-card p {
+    font-size: 8px;
+  }
+  .health-card > div > span {
+    font-size: 8px;
+  }
+  .overview-bottom-note {
+    font-size: 9px;
+  }
+  .overview-bottom-note > span:last-child {
+    font-size: 8px;
+  }
+  .camera-wall-full .camera-bottomline strong {
+    font-size: 14px;
+  }
+  .camera-wall-full .camera-bottomline small {
+    font-size: 10px;
+  }
+  .camera-wall-full .camera-id {
+    font-size: 10px;
+  }
+  .camera-wall-full .camera-card-footer {
+    font-size: 10px;
+  }
+  .camera-wall-full .camera-card-footer > span:last-child {
+    font-size: 9px;
+  }
+}
+/* Comfortable reading sizes on secondary screens. */
+@media (min-width: 941px) {
+  .table-filters .search-field > input,
+  .table-filters .select-wrap select {
+    font-size: 11px;
+  }
+  .line-tabs > button {
+    font-size: 12px;
+  }
+  .data-table th {
+    font-size: 10px;
+  }
+  .data-table td,
+  .table-primary,
+  .table-event-name strong,
+  .location-cell {
+    font-size: 11px;
+  }
+  .table-event-name small,
+  .data-table td > small {
+    font-size: 9px;
+  }
+  .data-table .badge {
+    font-size: 9px;
+  }
+  .table-footer,
+  .table-source {
+    font-size: 10px;
+  }
+  .confidence-value {
+    font-size: 11px;
+  }
+  .event-summary small {
+    font-size: 10px;
+  }
+  .event-summary > p {
+    font-size: 12px;
+  }
+  .event-summary > p > span {
+    font-size: 10px;
+  }
+  .info-banner p {
+    font-size: 11px;
+  }
+  .rule-card h3 {
+    font-size: 14px;
+  }
+  .rule-card-top p {
+    font-size: 10px;
+  }
+  .rule-details {
+    font-size: 10px;
+    gap: 15px;
+  }
+  .rule-details strong {
+    font-size: 10px;
+  }
+  .camera-chips > span {
+    font-size: 8px;
+  }
+  .rule-card-footer > .text-button {
+    font-size: 10px;
+  }
+  .rules-intro p {
+    font-size: 11px;
+  }
+  .page-footnote {
+    font-size: 10px;
+  }
+  .settings-tabs > button {
+    font-size: 12px;
+  }
+  .settings-section-heading h2 {
+    font-size: 16px;
+  }
+  .settings-section-heading p {
+    font-size: 11px;
+  }
+  .settings-form .field-label {
+    font-size: 11px;
+  }
+  .settings-form .field-label > input,
+  .settings-form .select-wrap select {
+    font-size: 12px;
+  }
+  .settings-form-footer > span {
+    font-size: 10px;
+  }
+  .range-extents {
+    font-size: 9px;
+  }
+  .setting-toggle-row strong {
+    font-size: 12px;
+  }
+  .setting-toggle-row p {
+    font-size: 11px;
+  }
+  .inline-note {
+    font-size: 10px;
+  }
+  .security-checklist > div {
+    font-size: 12px;
+  }
+  .analytics-stat > span {
+    font-size: 11px;
+  }
+  .analytics-stat > small {
+    font-size: 9px;
+  }
+  .analytics-stat > small > span {
+    font-size: 8px;
+  }
+  .detection-chart-panel .panel-heading p {
+    font-size: 10px;
+  }
+  .chart-legend,
+  .chart-hover-value {
+    font-size: 9px;
+  }
+  .chart-y-axis,
+  .chart-bar-column > small {
+    font-size: 9px;
+  }
+  .chart-insight {
+    font-size: 9px;
+  }
+  .breakdown-legend > div {
+    font-size: 10px;
+  }
+  .breakdown-legend strong {
+    font-size: 10px;
+  }
+  .breakdown-legend small {
+    font-size: 9px;
+  }
+  .donut-chart span {
+    font-size: 9px;
+  }
+  .recording-detail dt,
+  .recording-detail dd {
+    font-size: 10px;
+  }
+  .recording-detail-note strong {
+    font-size: 11px;
+  }
+  .recording-detail-note p {
+    font-size: 10px;
+  }
+  .recording-card-info strong {
+    font-size: 11px;
+  }
+  .recording-card-info > span {
+    font-size: 9px;
+  }
+  .playback-notice {
+    font-size: 9px;
+  }
+  .playback-time {
+    font-size: 10px;
+  }
+  .activity-share {
+    font-size: 10px;
+  }
+}
+.modal-header p {
+  font-size: 11px;
+}
+.field-label {
+  font-size: 12px;
+}
+.field-label > input,
+.field-label > .select-wrap select {
+  font-size: 12px;
+}
+.connection-preview strong {
+  font-size: 12px;
+}
+.connection-preview p {
+  font-size: 11px;
+}
+.event-description {
+  font-size: 11px;
+}
+.event-detail-meta dt,
+.event-detail-meta dd {
+  font-size: 10px;
+}
+.event-detail-title h3 {
+  font-size: 16px;
+}
+.event-detail-title > div > span {
+  font-size: 10px;
+}
+.help-welcome p {
+  font-size: 11px;
+}
+.help-links strong {
+  font-size: 12px;
+}
+.help-links small {
+  font-size: 10px;
+}
+.search-results > button > span:nth-child(2) {
+  font-size: 12px;
+}
+.search-results small {
+  font-size: 10px;
+}
+.search-results h3 {
+  font-size: 9px;
+}
+@media (max-width: 720px) {
+  .topbar .mobile-menu-button {
+    display: flex;
+  }
+  .page-heading p {
+    font-size: 11px;
+  }
+  .stat-top {
+    font-size: 11px;
+  }
+  .stat-footer,
+  .stat-footer > span:first-child,
+  .stat-footer > span:last-child {
+    font-size: 8px;
+  }
+  .stat-footer {
+    flex-wrap: wrap;
+    gap: 3px 5px;
+  }
+  .overview-meta > span {
+    font-size: 10px;
+  }
+  .activity-content > strong {
+    font-size: 11px;
+  }
+  .activity-content > span {
+    font-size: 10px;
+  }
+  .activity-content > small {
+    font-size: 9px;
+  }
+  .activity-insight strong {
+    font-size: 10px;
+  }
+  .activity-insight p > span {
+    font-size: 9px;
+  }
+  .activity-view-all {
+    font-size: 10px;
+  }
+  .health-card strong {
+    font-size: 10px;
+  }
+  .health-card p {
+    font-size: 9px;
+  }
+  .health-card > div > span {
+    font-size: 9px;
+  }
+  .intelligence-card-top > span:first-child {
+    font-size: 11px;
+  }
+  .intelligence-metrics > div > span {
+    font-size: 9px;
+  }
+  .intelligence-card > button {
+    font-size: 10px;
+  }
+  .recent-recording-text > strong {
+    font-size: 10px;
+  }
+  .recent-recording-text > span {
+    font-size: 8px;
+  }
+  .recent-recording-text small {
+    font-size: 8px;
+  }
+  .recent-recordings-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .recent-recording:last-child {
+    display: none;
+  }
+  .camera-wall-subhead {
+    font-size: 9px;
+  }
+  .overlay-control {
+    font-size: 9px;
+  }
+  .camera-wall-footer,
+  .camera-wall-footer .pagination > span {
+    font-size: 8px;
+  }
+  .field-label {
+    font-size: 11px;
+  }
+  .field-label > input,
+  .field-label > .select-wrap select {
+    font-size: 12px;
+  }
+  .modal-header p {
+    font-size: 10px;
+  }
+  .connection-preview p {
+    font-size: 10px;
+  }
+  .connection-preview strong {
+    font-size: 11px;
+  }
+  .help-welcome p {
+    font-size: 10px;
+  }
+  .help-links strong {
+    font-size: 11px;
+  }
+  .help-links small {
+    font-size: 10px;
+  }
+  .inline-note {
+    font-size: 10px;
+  }
+  .event-description {
+    font-size: 11px;
+  }
+  .settings-tabs > button {
+    font-size: 11px;
+  }
+  .settings-form .field-label {
+    font-size: 11px;
+  }
+  .settings-form .field-label > input,
+  .settings-form .select-wrap select {
+    font-size: 12px;
+  }
+  .settings-section-heading p {
+    font-size: 10px;
+  }
+  .settings-form-footer > span {
+    font-size: 9px;
+  }
+  .rule-card h3 {
+    font-size: 13px;
+  }
+  .rule-card-top p {
+    font-size: 10px;
+  }
+  .rule-details,
+  .rule-details strong {
+    font-size: 9px;
+  }
+  .camera-chips > span {
+    font-size: 8px;
+  }
+  .rule-card-footer > .text-button {
+    font-size: 9px;
+  }
+  .rules-intro p {
+    font-size: 10px;
+  }
+  .recording-card-info strong {
+    font-size: 10px;
+  }
+  .recording-card-info > span {
+    font-size: 9px;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .playback-notice {
+    font-size: 9px;
+  }
+  .playback-time {
+    font-size: 9px;
+  }
+  .playback-controls-row > div {
+    gap: 3px;
+  }
+  .analytics-stat > span {
+    font-size: 10px;
+  }
+  .analytics-stat > small {
+    font-size: 8px;
+    flex-wrap: wrap;
+  }
+  .analytics-stat > small > span {
+    font-size: 8px;
+  }
+  .analytics-period {
+    font-size: 10px;
+  }
+  .breakdown-legend > div,
+  .breakdown-legend strong {
+    font-size: 9px;
+  }
+  .breakdown-legend small {
+    font-size: 8px;
+  }
+  .chart-legend {
+    font-size: 9px;
+  }
+  .chart-bar-column > small {
+    font-size: 8px;
+  }
+  .chart-insight {
+    font-size: 9px;
+  }
+  .security-checklist > div {
+    font-size: 11px;
+  }
+}
+/* On a phone, a camera is large enough to inspect rather than a tiny thumbnail. */
+@media (max-width: 560px) {
+  .camera-grid,
+  .camera-wall-full .camera-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 0 13px;
+  }
+  .camera-picture,
+  .camera-wall-full .camera-picture {
+    aspect-ratio: 1.8;
+  }
+  .camera-topline,
+  .camera-wall-full .camera-topline {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+  }
+  .camera-id,
+  .camera-wall-full .camera-id {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .camera-id > svg {
+    width: 12px;
+  }
+  .live-pill,
+  .camera-wall-full .live-pill {
+    font-size: 7px;
+    letter-spacing: 0.4px;
+    padding: 4px 6px;
+  }
+  .camera-bottomline,
+  .camera-wall-full .camera-bottomline {
+    bottom: 14px;
+    left: 13px;
+    right: 13px;
+  }
+  .camera-bottomline strong,
+  .camera-wall-full .camera-bottomline strong {
+    font-size: 13px;
+  }
+  .camera-bottomline small,
+  .camera-wall-full .camera-bottomline small {
+    font-size: 9px;
+  }
+  .feed-time,
+  .camera-wall-full .feed-time {
+    font-size: 9px;
+  }
+  .feed-time > small,
+  .camera-wall-full .feed-time small {
+    font-size: 7px;
+  }
+  .camera-card-footer,
+  .camera-wall-full .camera-card-footer {
+    font-size: 9px;
+    height: 32px;
+    padding: 9px 12px;
+  }
+  .camera-card-footer > span:last-child,
+  .camera-wall-full .camera-card-footer > span:last-child {
+    font-size: 8px;
+  }
+  .camera-card-footer .camera-footer-divider {
+    display: block;
+  }
+  .ai-feed-tag,
+  .camera-wall-full .ai-feed-tag {
+    font-size: 7px;
+    left: 13px;
+    bottom: 62px;
+  }
+  .detection-box > span,
+  .camera-wall-full .detection-box > span {
+    font-size: 7px;
+    top: -17px;
+    padding: 3px 5px;
+  }
+  .camera-hover-tools,
+  .camera-wall-full .camera-hover-tools {
+    top: 42px;
+    right: 11px;
+    gap: 4px;
+  }
+  .camera-hover-tools button,
+  .camera-wall-full .camera-hover-tools button {
+    width: 26px;
+    height: 26px;
+  }
+  .camera-hover-tools button > svg {
+    width: 14px;
+  }
+  .camera-hover-tools button:nth-child(2) {
+    display: grid;
+  }
+  .camera-wall-full .camera-wall-heading h2 {
+    font-size: 13px;
+  }
+  .camera-wall-full .camera-wall-heading .badge {
+    font-size: 8px;
+  }
+  .camera-wall-actions .select-wrap select {
+    font-size: 9px;
+  }
+  .camera-wall-subhead {
+    font-size: 9px;
+  }
+  .camera-wall-full .camera-wall-footer {
+    font-size: 9px;
+  }
+  .focus-grid .camera-picture,
+  .camera-wall-full .focus-grid .camera-picture {
+    aspect-ratio: 1.35;
+  }
+  .stat-footer > span:last-child {
+    font-size: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Keep light typography on the dark navigation surface. */
+.workspace-icon {
+  color: #dbe8d7;
+}
+.workspace-switch small {
+  color: #a3b5a7;
+}
+.workspace-switch > svg {
+  color: #a0b5a6;
+}
+.nav-label {
+  color: #9aafa1;
+}
+.nav-item {
+  color: #b5c5bb;
+}
+.nav-item.nav-active {
+  color: #e0efd5;
+}
+.nav-active svg {
+  color: #c0dcae;
+}
+.nav-badge {
+  color: #e8d699;
+}
+.mobile-sidebar-close {
+  color: #b7c7b8;
+}
+:root {
+  --muted: #65746b;
+}
+.rule-disabled .rule-card-top > div,
+.rule-disabled .rule-details {
+  opacity: 1;
+}
+.rule-disabled .rule-card-top > div > h3 {
+  color: #647460;
+}
+.rule-disabled .rule-card-top > .event-icon {
+  opacity: 0.7;
+}
+@media (max-width: 720px) {
+  .sidebar {
+    visibility: hidden;
+  }
+  .sidebar.sidebar-open {
+    visibility: visible;
+  }
+}
